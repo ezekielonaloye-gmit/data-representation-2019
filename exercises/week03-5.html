@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!---Author: Ezekiel Onaloye-->
+<html>
+    <head>
+        <title>Week03-5 - Javascript Exercise</title>
+    </head>
+    <body>
+        <div> For the purpose of this exercise I used 3 Div to get full understanding how it worked</div>
+        <br/>
+        <br/>
+        <div id="div1" style="background-color: royalblue;">
+        <br/>
+        div1 <br/>
+        <button onclick="showDiv3()">show Div3</button>
+        </div>
+        <br/>
+        <div id="div2" style="background-color:greenyellow;">
+        <br/>
+        div2 <br/>
+        <button onclick="showDiv2()">show Div2</button>
+        </div>
+        <br/>
+        <div id="div3" style="background-color:red;display: none;">
+        <br/>
+        div3 <br/>
+        <button onclick="showDiv1()">show Div1</button>
+        </div>
+        
+        <script>
+        function showDiv3(){
+            document.getElementById("div1").style.display = "none";
+            document.getElementById("div2").style.display = "block";
+            document.getElementById("div3").style.display = "block";
+        }
+        function showDiv1(){
+            document.getElementById("div1").style.display = "block";
+            document.getElementById("div2").style.display = "block";
+            document.getElementById("div3").style.display = "none";
+        }
+        </script>
+    </body>
+</html>
