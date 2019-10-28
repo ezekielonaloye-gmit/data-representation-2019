@@ -1,1 +1,28 @@
-
+https://github.com/ezekielonaloye-gmit/data-representation-2019
+<?xml version="1.0" encoding="UTF-8"?>
+<library_catalog>
+<technical_books> 
+<book isbn-13="978-1608058839" isbn-10="1608058832">  
+<title>Introduction To Computer Data Representaion</title> 
+<publisher>Bentham Science Publishers</publisher> 
+<author>Peter Fenwick</author> 
+</book>
+<book isbn-13="978-1938377006" isbn-10="1938377001"> 
+<title>Information Dashboard Design-Displaying Data for At-a-Glance Monitoring</title> 
+<publisher>Analytics Press</publisher> 
+<author>Stephen Few</author> 
+</book>
+</technical_books> 
+<cookery_books> 
+<book isbn-13="978-0718187729" isbn-10="0718187725"> 
+<title>5 Ingredients - Quick & Easy Food</title> 
+<publisher>Michael Joseph</publisher> 
+<author>Jamie Oliver</author> 
+</book>
+<book isbn-13="978-9781444756692" isbn-10="1444756699"> 
+<title>Gordon Ramsays Ultimate Cookery Course</title> 
+<publisher>HODDER and STOUGHTON</publisher> 
+<author>Gordon Ramsay</author> 
+</book> 
+</cookery_books> 
+</library_catalog>
