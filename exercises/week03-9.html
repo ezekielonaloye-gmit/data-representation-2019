@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!---Author: Ezekiel Onaloye-->
+<html>
+    <head>
+        <title>Week03-9 - Javascript Exercise</title>
+    </head>
+    
+    <body>
+        <table>
+            <tr>
+                <td>Premier League</td>
+                <td>Arsenal
+                <td>Invincibles</td>
+                <td>Unai Emery must go</td>
+                <td><button onclick="doRow(this)">output</button></td>
+            </tr>
+        </table>
+
+        <script>
+            function doRow(buttonElement){
+                var rowElement = buttonElement.parentNode.parentNode
+                var data={}
+                data.cell1 = rowElement.cells[0].firstChild.textContent;
+                data.cell2 = rowElement.cells[1].firstChild.textContent;
+                data.cell3 = rowElement.cells[2].firstChild.textContent;
+                data.cell4 = rowElement.cells[3].firstChild.textContent;
+                
+                console.log(JSON.stringify(data))
+            }
+        </script>
+    </body>
+</html>
