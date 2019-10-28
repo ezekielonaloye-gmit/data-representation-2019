@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!---Author: Ezekiel Onaloye-->
+<html>
+    <head>
+        <title>Week03-8 - Javascript Exercise</title>
+    </head>
+    
+    <body>
+        <!--webpage with multiple inputs and a button, when the user hits the button 
+        read all the inputs, store the values into a class and output the class to the console--->
+        <div id="question8">
+            First name: <input type="text" name='firstName'/><br/>
+            Last name: <input type="text" name='lastName'/><br/>
+            age: <input type="text" name='age'/><br/>
+            email: <input type="text" name='email'/><br/>
+            <button onclick="readInputs()">go</button>
+        </div>
+
+        <script>
+         function readInputs(){
+             var profile ={}
+             var form = document.getElementById("question8")
+             profile.firstName = form.querySelector('input[name="firstName"').value
+             profile.lastName = form.querySelector('input[name="lastName"').value  
+             profile.age = form.querySelector('input[name="age"').value
+             profile.email = form.querySelector('input[name="email"').value
+             console.log("form data "+JSON.stringify(profile))
+         }
+        </script>
+    </body>
+</html>
