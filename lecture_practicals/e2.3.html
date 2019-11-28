@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>2.2</title>
+<title>2.3</title>
 </head>
 <body>
     <!---this is for value called in function--->
-    <input id="name" type="text" value="enter your name"/>
+    <input id="name" type="text" value=" "/>
+
     <br/>
+
     <button onclick="buttonClicked()">click me</button><br/><br/>
+
+    <!-- display output inside this div and id name is output-->
     <div id="output"></div>
 
 
     <script>
         function buttonClicked(){
+            /*this is the value for input id= name for button*/
             var output=document.getElementById('name').value
-            document.getElementById('output').innerText = output
+            /*when  you click on the button the innertext will be displayed within the div as value of the output */
+            document.getElementById('output').innerText = output 
         }
        
     </script>
-    <script>
-        console.log("hello world2")
 
-        function sayHelloAgain(message){
-            console.log("hello "+message);
-        }
-        sayHelloAgain('Andrew')
-    </script>
-</body>
+   </body>
 </html>
